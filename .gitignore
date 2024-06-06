@@ -1,0 +1,40 @@
+# Ignore Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node.js specific
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Python specific
+__pycache__/
+venv/
+.coverage*
+htmlcov/
+.tox/
+docs/_build/
+
+# Application specific
+*.db
+*.json
+settings_PRIVATE.py
+examples/
+
+# Ignore .env file
+.env
